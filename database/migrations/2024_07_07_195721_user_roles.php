@@ -15,7 +15,7 @@ return new class extends Migration
         DB::table('users')->insert(
             array(
                 'name' => 'Administrator',
-                'email' => 'admin@system1.com ',
+                'email' => 'admin@system1.com',
                 'email_verified_at' => now(),
                 'created_at' => now(),
                 'updated_at' => now(),
